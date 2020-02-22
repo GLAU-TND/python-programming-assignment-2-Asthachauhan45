@@ -1,7 +1,7 @@
 t=eval(input())
 b=[min(t)]
 a=min(t)[-1]
-t.remove(a)
+t.remove(min(t))
 for i in range(len(t)):
     for j in range(len(t)):
         if a==t[j][0]:
